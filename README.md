@@ -8,7 +8,7 @@ The core concept of PresentAR is to bridge the gap between physical presentation
 ## ⚙️ How It Works (Working)
 
 > **[Insert System Architecture Diagram Here]**
-> *(e.g., `![Architecture Diagram](docs/images/architecture.png)`)*
+> *(e.g., `![Architecture Diagram](assets/architecture.png)`)*
 
 1. **Hardware Interaction:** The presenter uses the M5Stack CoreS3 SE device to interact with the system. The device's touch screen and built-in sensors capture inputs, rendering a local UI using LVGL.
 2. **Backend Communication:** The firmware communicates over Wi-Fi/UART with a local Python backend. The backend acts as the central hub, processing commands, and managing static assets like 3D models and recording files.
@@ -30,7 +30,7 @@ The core concept of PresentAR is to bridge the gap between physical presentation
 ### M5Stack CoreS3 SE (Target Device)
 
 > **[Insert Image of M5Stack CoreS3 SE Device Here]**
-> *(e.g., `![M5Stack CoreS3 SE](docs/images/device.png)`)*
+> *(e.g., `![M5Stack CoreS3 SE](assets/device.png)`)*
 
 The firmware is designed around the features and capabilities of the M5Stack CoreS3 SE.
 
@@ -53,12 +53,12 @@ The firmware is designed around the features and capabilities of the M5Stack Cor
 This repository is divided into three primary components:
 
 > **[Insert Detailed Flow/Component Diagram Here]**
-> *(e.g., `![Flow Diagram](docs/images/diagram.png)`)*
+> *(e.g., `![Flow Diagram](assets/flow.png)`)*
 
 ### 1. Frontend (`/frontend`)
 
 > **[Insert Dashboard Screenshot Here]**
-> *(e.g., `![Web Dashboard](docs/images/dashboard.png)`)*
+> *(e.g., `![Web Dashboard](assets/dashboard.png)`)*
 
 The web-based user interface and dashboard built with modern web tools.
 - **Tech Stack:** Bun, Vite, TypeScript, Tailwind CSS
