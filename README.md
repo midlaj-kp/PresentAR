@@ -101,4 +101,4 @@ Depending on your toolchain of choice, open the `/firmware` directory in your ID
 ---
 
 ## 📄 License
-[Add License Details Here]
+This project is licensed under the [MIT License](LICENSE).
